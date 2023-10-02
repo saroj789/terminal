@@ -1,6 +1,6 @@
 // terminal
 var terminal_location = "/terminal/";
-if (window.location.pathname !=="/terminal/") {
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
   terminal_location="/index.html";
 }
 
