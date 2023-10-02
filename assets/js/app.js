@@ -1,11 +1,18 @@
 // terminal
-if (window.location.pathname === "/" || window.location.pathname === "/index.html" || window.location.pathname === "/terminal/" || window.location.pathname === "/terminal") {
+var terminal_location = "/terminal/";
+if (window.location.pathname !=="/terminal/") {
+  terminal_location="/index.html";
+}
+
+// if (window.location.pathname === "/" || window.location.pathname === "/index.html" || window.location.pathname === "/terminal/" || window.location.pathname === "/terminal") {
+
+if (window.location.pathname === terminal_location) {
   new Terminal({
     container: document.querySelector(".terminal .card-body"),
     typingSpeed: 75,
     commands: [
       {
-        text: 'load profile -firstName "saroj" -lastName "kumar"',
+        text: 'load profile -firstName "Saroj Kumar" -lastName "Vaishya"',
         typing: true,
       },
       {
@@ -38,7 +45,7 @@ if (window.location.pathname === "/" || window.location.pathname === "/index.htm
         typing: true,
       },
       {
-        text: '<a href="/">Go Home</a>',
+        text: '<a href='+ terminal_location +'> Go Home</a>',
         typing: false,
       },
     ],
