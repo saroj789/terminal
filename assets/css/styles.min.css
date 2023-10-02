@@ -46,7 +46,7 @@ a {
 a:hover {
   color: #fff;
 }
-
+/*
 h2,
 h3 {
   margin-top: 0;
@@ -139,7 +139,7 @@ progress::-webkit-progress-value {
 .send-message {
   display: none;
 }
-
+*/
 .terminal,
 .send-message {
   max-width: calc(100% - 30px);
@@ -162,7 +162,7 @@ progress::-webkit-progress-value {
   padding: 15px;
   text-transform: initial !important;
 }
-
+/*
 .send-message {
   text-transform: uppercase;
 }
@@ -218,13 +218,15 @@ button:disabled {
 button:hover {
   background: orange;
 }
+*/
 
+/*
 .cards-container .card {
   max-width: 100%;
   position: absolute;
   text-transform: uppercase;
 }
-
+*/
 .card {
   opacity: 0.95;
   border: 2px solid #67b6b9;
@@ -264,6 +266,7 @@ button:hover {
   border-bottom: 2px solid #101b22;
 }
 
+/*
 .cards-container .card-header {
   cursor: move;
 }
@@ -282,6 +285,7 @@ button:hover {
   margin-left: 5px;
   display: inline-block;
 }
+*/
 
 .card .card-body {
   display: grid;
@@ -289,6 +293,7 @@ button:hover {
   position: relative;
 }
 
+/*
 .card img {
   filter: grayscale(60%) brightness(1.2) contrast(1.2);
 }
@@ -417,6 +422,10 @@ button:hover {
   padding: 5px;
 }
 
+*/
+
+/*
+
 @keyframes ping {
   0% {
     opacity: 1;
@@ -480,3 +489,4 @@ button:hover {
     display: none;
   }
 }
+*/
